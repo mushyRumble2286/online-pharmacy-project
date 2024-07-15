@@ -56,6 +56,10 @@ ul{
     margin-bottom: 10px;
 }
 
+.box:hover{
+    box-shadow: 3px 6px 7px rgb(210, 247, 235);
+}
+
 .box p{
     padding-left: 5px;
     padding-right: 5px;
@@ -112,4 +116,24 @@ section.heading{
     margin-left: 5px;
     cursor: pointer;
     background-color: rgb(210, 247, 235);
+}
+
+.fh{
+    background-color: #00008B;
+    text-align: center;
+    height: 80px;
+    padding-top: 15px;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feat{
+    background-color: rgb(210, 247, 235);
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 50px;
 }
