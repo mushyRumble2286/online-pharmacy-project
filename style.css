@@ -128,12 +128,37 @@ section.heading{
 .features{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
+    margin-top: 45px;
 }
 
 .feat{
     background-color: rgb(210, 247, 235);
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 50px;
+}
+
+.feat img{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.feat .cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feat .txt{
+    margin-left: 7px;
+}
+
+.feat h2{
+    font-weight: 600;
+}
+
+.feat p{
+    font-size: 14px;
 }
